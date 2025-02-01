@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind CSS with a framework like Next.js or Nuxt.js and involves the `@apply` directive.  The problem arises when using `@apply` with utility classes that are conditionally applied based on a prop or state.  In some cases, the conditional application doesn't work as expected leading to styles not being applied or unexpected styling.
